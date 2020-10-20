@@ -9,7 +9,7 @@
 	try{
 		$sql = "select * from mandu.text_board where num=?";
 		$stmh = $pdo->prepare($sql);
-		stmh->bindValue(1, $num, PDO::PARAM_STR);
+		$stmh->bindValue(1, $num, PDO::PARAM_STR);
 		$stmh->execute();
 
 		while($row = $stmh->fetch(PDO::FETCH_ASSOC)){
