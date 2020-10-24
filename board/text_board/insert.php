@@ -135,7 +135,7 @@
 					$pdo->beginTransaction();
 					$sql = "update mandu.text_board set $field_org_name = ?, $field_real_name = ?  where num=?";
 					$stmh = $pdo->prepare($sql);
-					stmh->bindValue(1, $org_name_value, PDO::PARAM_STR);
+					$stmh->bindValue(1, $org_name_value, PDO::PARAM_STR);
 					$stmh->bindValue(2, $org_real_value, PDO::PARAM_STR);
 					$stmh->bindValue(3, $num, PDO::PARAM_STR);
 					$stmh->execute();
