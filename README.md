@@ -18,6 +18,9 @@
   
 **title.php**  
 - 로그인 창이 포함된 상단 고정 바  
+
+
+
 ### Login  
 ---  
 **login_result.php**  
@@ -32,5 +35,22 @@
 
 ### Member  
 ---
-**insert_Form.php**  
+**insertForm.php**  
+- 회원 가입을 위한 정보 입력 폼  
+- 필수 입력 항목 유효성 검사  
+
+**check_id.php**  
+- 아이디 유효성 검사  
+- 아이디 중복 검사  
+
+**check_nick.php**  
+- 닉네임 중복 검사  
+
+**insertPro.php**  
+- 패스워드 유효성 검사
+- 이메일 유효성 검사  
+- 패스워드 해싱  
+- 회원정보 database 등록
+
+
 
