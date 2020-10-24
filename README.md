@@ -12,17 +12,17 @@
 
 ## 구성
 ### Libarary
----
+
 **MYDB.php**  
 - 데이터베이스 접속을 위한 함수 정의  
   
 **title.php**  
 - 로그인 창이 포함된 상단 고정 바  
 
-
+---
 
 ### Login  
----  
+
 **login_result.php**  
 - 로그인 시도에 대한 결과 도출  
 - 로그인한 클라이언트의 ip 값 database 등록        
@@ -32,9 +32,9 @@
 
 **multi_login.php**  
 - 다른 클라이언트에서 접속 중인 계정으로 로그인 할 경우 메시지 출력 후 세션 해제  
-
+---  
 ### Member  
----
+
 **insertForm.php**  
 - 회원 가입을 위한 정보 입력 폼  
 - 필수 입력 항목 유효성 검사  
@@ -50,7 +50,29 @@
 - 패스워드 유효성 검사
 - 이메일 유효성 검사  
 - 패스워드 해싱  
-- 회원정보 database 등록
+- 회원정보 database 등록  
+
+**updateForm_check.php**  
+- 회원정보 수정을 위한 패스워드 입력  
+
+
+**updateForm.php**  
+- 회원정보 수정 폼  
+
+**updatePro.php**  
+- 닉네임 중복 검사  
+- 수정된 회원정보 db 등록  
+
+**change_pass.php**  
+- 변경할 패스워드 입력 / 확인 절차  
+- URL 조작을 통한 다른 계정의 패스워드 변경 차단  
+
+**change_pass_confirm.php**  
+- 변경할 패스워드 유효성 검사  
+- 패스워드 해싱  
+- 변경한 패스워드 database 등록  
+---  
+### Text_board  
 
 
 
