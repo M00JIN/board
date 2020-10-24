@@ -1,2 +1,1 @@
-# board
-##123
+# [site](http://www.manduya.site)
