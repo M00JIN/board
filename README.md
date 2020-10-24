@@ -11,7 +11,7 @@
 - 데이터베이스 : mysql 8.0.17
 
 ## 구성
-### Libarary
+### [ Libarary ]  
 
 **MYDB.php**  
 - 데이터베이스 접속을 위한 함수 정의  
@@ -21,7 +21,7 @@
 
 ---
 
-### Login  
+### [ Login ]  
 
 **login_result.php**  
 - 로그인 시도에 대한 결과 도출  
@@ -33,7 +33,7 @@
 **multi_login.php**  
 - 다른 클라이언트에서 접속 중인 계정으로 로그인 할 경우 메시지 출력 후 세션 해제  
 ---  
-### Member  
+### [ Member ]  
 
 **insertForm.php**  
 - 회원 가입을 위한 정보 입력 폼  
@@ -72,7 +72,7 @@
 - 패스워드 해싱  
 - 변경한 패스워드 database 등록  
 ---  
-### Text_board  
+### [ Text_board ]  
 
 
 
