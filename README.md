@@ -83,6 +83,10 @@
 **write_form.php**  
 - 게시물 작성 폼  
 - "admin" 계정으로 작성할 경우 공지사항으로 등록 가능  
+
+![capture](https://user-images.githubusercontent.com/44194202/97080163-672c5080-1634-11eb-8cab-f584d0704e0c.png)  
+
+
 - 네이버 스마트에디터 연동  
 - 이미지 파일 업로드 가능  
 
