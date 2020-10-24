@@ -23,10 +23,12 @@
 **login_result.php**  
 로그인 시도에 대한 결과 도출  
 로그인한 클라이언트의 ip 값 db update        
+
 **logout.php**  
 접속 중인 계정에 대한 session 해제  
+
 **multi_login.php**  
-다른 클라이언트에서 접속 중인 계정으로 로그인 할 경우 메시지 출력 후  해제  
+다른 클라이언트에서 접속 중인 계정으로 로그인 할 경우 메시지 출력 후 session 해제  
 
 
 
