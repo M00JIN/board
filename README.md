@@ -131,6 +131,6 @@
 ---  
 
 ## 브라우저 서포트  
+![캡처](https://user-images.githubusercontent.com/44194202/97321081-d793d580-18b1-11eb-9412-304e083ae00a.PNG)
 
-![캡처](https://user-images.githubusercontent.com/44194202/97283634-6d643c00-1883-11eb-8e6d-ec2ee258be8f.PNG)
 ---
