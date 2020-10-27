@@ -6,7 +6,7 @@
 - http://www.manduya.site
 - 웹 호스팅 : AWS EC2
 - 개발 환경 : Windows 10
-- 개발 언어 : HTML / CSS / JavaScript / PHP + Bootstrap 4 
+- 개발 언어 : HTML / CSS + Bootstrap 4 / JavaScript / PHP 
 - php 버전 : 7.4.1
 - 데이터베이스 : mysql 8.0.17
 
