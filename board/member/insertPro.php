@@ -52,18 +52,19 @@ function passwordCheck($_str){ //패스워드 유효성 검사
 		exit;
 	}
 
-	$email_check = str_split($email); //이메일 유효성 검사
+    //정규식으로 수정 요망
+    $email_check = str_split($email); //이메일 유효성 검사
     $email_confirm = true;
     $flag = 0;
     for($i=0;$i<strlen($email);$i++){ //한 글자씩 검사
 		$check = ord($email_check[$i]);
 		
-		if((($check>=97  && $check <= 122) || $check ==95 || ($check >= 48 && $check<=57))){
+		if((($check>=97  && $check <= 122) || $check ==64 || $check == 46 || ($check >= 48 && $check<=57))){
 			$flag++; //유효한 문자일 때 flag++
 		}  
     }
      if($email!=""){ 
-		 if((strlen($email)-1) != $flag){ //이메일 주소에서 @을 뺀 나머지와 대조
+		 if(strlen($email) != $flag){ //이메일 주소 길이와 유효한 문자의 갯수가 맞지 않을 때
 			$email_confirm = false;
 		 }
 	 }
