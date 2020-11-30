@@ -133,7 +133,7 @@
 
 ---  
 ## 수정 필요 사항  
--  session 적용 안됨  
+-  list.php session 적용 안됨  
 
 ## 브라우저 서포트  
 ![캡처](https://user-images.githubusercontent.com/44194202/97321081-d793d580-18b1-11eb-9412-304e083ae00a.PNG)
