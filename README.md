@@ -7,7 +7,7 @@
 
 ## 정보
 - https://manduya.site  
-  연결이 비공개로 설정되어 있지 않습니다 ▷ 고급 - www.manduya.site(안전하지 않음)(으)로 이동
+  연결이 비공개로 설정되어 있지 않습니다 ▷ 고급 - manduya.site(안전하지 않음)(으)로 이동
 - 웹 호스팅 : AWS EC2
 - 개발 환경 : Windows 10
 - 개발 언어 : HTML / CSS / JavaScript / Bootstrap 4 / PHP 
