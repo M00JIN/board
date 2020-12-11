@@ -6,7 +6,7 @@
 
 
 ## 정보
-- [manduya.site]
+- [URL](https://manduya.site)
 - 웹 호스팅 : AWS EC2
 - 개발 환경 : Windows 10
 - 개발 언어 : HTML / CSS / JavaScript / Bootstrap 4 / PHP 
